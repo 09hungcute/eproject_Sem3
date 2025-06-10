@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HK3\\Project\\CareerGuidancePlatform\\CareerGuidancePlatform.csproj": {}
+    "D:\\Users\\FPT APTECH\\SEMESTER 3\\eproject_Sem3\\CareerGuidancePlatform.csproj": {}
   },
   "projects": {
-    "D:\\HK3\\Project\\CareerGuidancePlatform\\CareerGuidancePlatform.csproj": {
+    "D:\\Users\\FPT APTECH\\SEMESTER 3\\eproject_Sem3\\CareerGuidancePlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HK3\\Project\\CareerGuidancePlatform\\CareerGuidancePlatform.csproj",
+        "projectUniqueName": "D:\\Users\\FPT APTECH\\SEMESTER 3\\eproject_Sem3\\CareerGuidancePlatform.csproj",
         "projectName": "CareerGuidancePlatform",
-        "projectPath": "D:\\HK3\\Project\\CareerGuidancePlatform\\CareerGuidancePlatform.csproj",
-        "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
-        "outputPath": "D:\\HK3\\Project\\CareerGuidancePlatform\\obj\\",
+        "projectPath": "D:\\Users\\FPT APTECH\\SEMESTER 3\\eproject_Sem3\\CareerGuidancePlatform.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\FPT APTECH\\SEMESTER 3\\eproject_Sem3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -44,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.13, )"
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
